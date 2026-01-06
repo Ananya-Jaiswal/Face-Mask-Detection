@@ -3,7 +3,7 @@
 A real-time face mask detection system using deep learning and computer vision — capable of detecting faces and classifying whether they are wearing a mask or not from a webcam feed.
 
 
-## 🧠 Project Overview
+## Project Overview
 
 Face mask detection became an important safety measure during the COVID-19 pandemic. This project implements a real-time mask detector that:
 - Detects faces in live video from a webcam.
@@ -17,7 +17,7 @@ The system uses:
 - **Keras/TensorFlow** for model loading and prediction.
 
 
-## 🧩 Features
+## Features
 
 - 🔹 Real-time detection from webcam
 - 🔹 Face localization with bounding boxes
@@ -26,7 +26,7 @@ The system uses:
 - 🔹 Smooth and stable predictions
 
 
-## 📁 Dataset
+## Dataset
 
 The dataset used: [Face Mask Detection Dataset](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)
 
@@ -37,7 +37,7 @@ We trained the model on a dataset of approximately **~7,000+ labeled face images
 The dataset was split into training and validation sets for proper model evaluation and robustness.
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Library / Tool | Purpose |
 |----------------|---------|
@@ -48,5 +48,28 @@ The dataset was split into training and validation sets for proper model evaluat
 | Haar Cascade   | Face detector model |
 
 
-## 📌 Project Structure
 
+---
+
+## Installation
+
+1. Clone the repository:
+
+```
+git clone https://github.com/<your-username>/MaskDetection.git
+cd MaskDetection
+```
+
+2. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+3. Run real-time detection:
+
+```
+python RealTimeMaskDetection.py
+```
+
+4. Real-time face mask detection is active and press 'X' or 'Q' to quit.
