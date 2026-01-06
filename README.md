@@ -2,7 +2,6 @@
 
 A real-time face mask detection system using deep learning and computer vision — capable of detecting faces and classifying whether they are wearing a mask or not from a webcam feed.
 
----
 
 ## 🧠 Project Overview
 
@@ -32,6 +31,7 @@ The system uses:
 ## 📁 Dataset
 
 The dataset used: [Face Mask Detection Dataset](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)
+
 We trained the model on a dataset of approximately **~7,000+ labeled face images** covering:
 - Faces with masks
 - Faces without masks
