@@ -16,7 +16,6 @@ The system uses:
 - **Haar Cascade** for fast face detection.
 - **Keras/TensorFlow** for model loading and prediction.
 
----
 
 ## 🧩 Features
 
@@ -26,7 +25,6 @@ The system uses:
 - 🔹 Confidence percentages displayed live
 - 🔹 Smooth and stable predictions
 
----
 
 ## 📁 Dataset
 
@@ -38,7 +36,6 @@ We trained the model on a dataset of approximately **~7,000+ labeled face images
 
 The dataset was split into training and validation sets for proper model evaluation and robustness.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -50,7 +47,6 @@ The dataset was split into training and validation sets for proper model evaluat
 | NumPy          | Array processing |
 | Haar Cascade   | Face detector model |
 
----
 
 ## 📌 Project Structure
 
